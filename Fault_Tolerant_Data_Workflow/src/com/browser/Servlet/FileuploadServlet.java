@@ -334,7 +334,7 @@ public class FileuploadServlet extends HttpServlet {
 		        					FileInputStream ifile=new FileInputStream(file);
 		        					PCloudAPI conn=new PCloudAPI(true);
 		        					      Hashtable <String, Object> params=new Hashtable <String, Object> ();
-		        					      params.put("username", "cloudproject18032019@gmail.com");
+		        					      params.put("username", "@gmail.com");
 		        					      params.put("password", "18032019");
 		        					      params.put("folderid", 0);
 		        					
